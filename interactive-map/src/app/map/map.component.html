@@ -1,0 +1,42 @@
+<div class="app-container">
+    <header>
+      <h1>Interactive World Map</h1>
+    </header>
+    
+    <main>
+      <div class="map-column">
+        <div id="map-container" [innerHTML]="svgMap"></div>
+      </div>
+      
+      <div class="info-column">
+        <div *ngIf="selectedCountry" class="country-info">
+          <h2>{{selectedCountry?.name}}</h2>
+          <div class="info-grid">
+            <div class="info-item">
+              <span class="label">Capital:</span>
+              <span class="value">{{selectedCountry?.capitalCity}}</span>
+            </div>
+            <div class="info-item">
+              <span class="label">Region:</span>
+              <span class="value">{{selectedCountry?.region?.value}}</span>
+            </div>
+            <div class="info-item">
+              <span class="label">Income Level:</span>
+              <span class="value">{{selectedCountry?.incomeLevel?.value}}</span>
+            </div>
+            <div class="info-item">
+              <span class="label">Longitude:</span>
+              <span class="value">{{selectedCountry?.longitude}}</span>
+            </div>
+            <div class="info-item">
+              <span class="label">Latitude:</span>
+              <span class="value">{{selectedCountry?.latitude}}</span>
+            </div>
+          </div>
+        </div>
+        <div *ngIf="!selectedCountry" class="no-selection">
+          <p>Click on a country to view information</p>
+        </div>
+      </div>
+    </main>
+  </div>
