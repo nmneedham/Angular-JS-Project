@@ -2,6 +2,14 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.4.
 
+<strong>Angular CLI: 19.2.4        
+Node: 22.14.0
+Package Manager: npm 11.2.0
+OS: win32 x64</strong>
+
+Student ID: <strong>010529531</strong>
+
+
 ## Development server
 
 To start a local development server, run:
