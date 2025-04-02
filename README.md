@@ -4,9 +4,9 @@
 Welcome to JavaScript Programming! 
 For specific task instructions and requirements for this assessment, please refer to the course page.
  
-Angular CLI: 19.2.4        
+<strong>Angular CLI: 19.2.4        
 Node: 22.14.0
 Package Manager: npm 11.2.0
-OS: win32 x64
+OS: win32 x64</strong>
 
-Student ID: 010529531
+Student ID: <strong>010529531</strong>
